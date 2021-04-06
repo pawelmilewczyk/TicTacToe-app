@@ -1,0 +1,16 @@
+.NextMove {
+  background-color: steelblue;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+
+  & > span {
+    margin-left: 1rem;
+    font-weight: 400;
+  }
+
+  @media only screen and (min-width: 500px) and (max-height: 420px) {
+    grid-column: col-start 1 / col-end 1;
+    grid-row: row-start 3 / row-end 4;
+  }
+}
