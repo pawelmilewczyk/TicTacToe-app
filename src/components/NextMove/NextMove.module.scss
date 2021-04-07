@@ -1,8 +1,11 @@
 .NextMove {
   background-color: steelblue;
+  box-shadow: 0.3rem 0.3rem 1.5rem rgba(#000, 0.4);
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 3px;
+  width: 27rem;
+  text-align: center;
 
   & > span {
     margin-left: 1rem;

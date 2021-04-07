@@ -5,10 +5,13 @@
   & > * {
     padding: 1rem 2rem;
     background-color: skyblue;
+    box-shadow: 0.3rem 0.3rem 1.5rem rgba(#000, 0.4);
     border-radius: 3px;
+    min-width: 16rem;
+    display: flex;
+    justify-content: space-between;
   }
   span {
-    margin-left: 1rem;
     font-weight: 400;
   }
   @media only screen and (min-width: 500px) and (max-height: 420px) {
